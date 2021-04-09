@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Информация обо мне</title>
+    <link rel="stylesheet" type="text/css" href="styles/headercss.css" >
+    <script src="script/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="header" data-left="0" data-top="0" data-width="1480" data-height="64">
+        <div class="dmenu">
+          <img class="menu" id="photo" style="cursor: pointer;" onclick="start()" src="photos/menu.png">
+          <div class="flymenu" id="flymenu">
+            <label>Список пользователей онлайн:</label>
+          </div>
+
+          </div>
+        <div class="btn1"><a href="adminpage.html" class="fill-div">Административная</a></div>
+        <div class="btn1"><a href="info.html" class="fill-div">Обо мне</a></div>
+        <div class="btn1"><a href="MainPage.html" class="fill-div">На главную</a></div>
+        <div class="btn1"><a href="labs.html" class="fill-div">Мои работы</a></div>
+        <div class="btn1"><a href="Gallery.html" class="fill-div">фото-галерея</a></div>
+        <input type="button" value="Войти/Регистрация" class="atuin-btn" onclick="reg()">
+          <div class="flymenu2" id="flymenu2">
+            <input type="text" class="login" placeholder="Login">
+            <input type="password" class="login" placeholder="Password">
+            <div class="registr">
+            <a href="MainPage.html" class="green">Войти</a>
+            <a href="registration.html" class="registr2">Регистрация</a>
+            </div>
+          </div>
+    </div>
+    <nav>
+      <div class="burger-nav">
+      
+        <!--     <img class="burger-icon" src="http://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" height="35" width="35"> -->
+      </div>
+
+      <div id="contain">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      
+
+      <ul id="nav" >
+        <li><a href="vhod-mobile.html" id="vhod">Войти/Зарегистрироваться</a></li>
+        <li><a href="MainPage.html">На главную</a></li>
+        <li><a href="info.html">Обо мне</a></li>
+        <li><a href="labs.html">Мои работы</a></li>
+        <li><a href="Gallery.html">Фото-галерея</a></li>
+        <li><a href="adminpage.html">Административная</a></li>
+        <li><a href="online.html">Посмотреть пользователей онлайн</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="maindiv">
+      <div class="maindiv2">
+        <img class="mainimg" src="photos/photo_obomne1.jpg">
+        <div class="maindiv2-text">
+        <p class="pinfo">КТО Я?<br><br><br>ОТКУДА Я?<br><br>ЧТО ЭТО ЗА САЙТ?<br><br><br> ЧТО Я ПРЕДЛАГАЮ?</p>
+        <p class="mainparagraph">Я Егор Храмков, первокурсник УЛГТУ<br><br>Из "замечательного" поселка городского типа "Новая Майна"<br><br>Это мой фан-сайт, на котором вы можете многоe узнать обо мне<br><br>Потратить свое свободное время на просмотр фото-галереи, моих работ по дискретной математике и прочего</p>
+        </div>
+      </div>
+      <div>
+        <h2 class="info">Немного обо мне</h2>
+        <p class="mainparag2">Я родился в нулевых на краю города...  Программированием я стал увлекаться в 9 классе, когда встал выбор о предметах для сдачи ОГЭ. Приехал из богом забытой Новой Майны в Ульяновск, после того как сдал хорошо ЕГЭ, чтобы учиться в УЛГТУ. Стал еще больше заниматься программированием, привыкаю к жизни вдалеке от родителей.</p></div>
+    </div>
+
+    
+    <div class="end">
+      <p>Связь со мной:</p><a href="https://vk.com/a_a_aaa_a_a"><img src="images/vk.png" class="end img"></a>
+      <img src="images/mail.png" class="end img" onclick="mail()">
+      <p id="mail" class="hide-label">egor_kuplinov@mail.ru</p>
+      <p class="end-official">© Официальный сайт. Храмков, 2021 </p>
+    </div>
+    <script src="script/main.js"></script>
+    </body>
+</html>
+
